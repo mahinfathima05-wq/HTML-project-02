@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee Menu</title>
+  <style>
+    body {
+      background-color: #f5f0e6;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .menu {
+      background-color: #fff;
+      width: 80%;
+      max-width: 500px;
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="menu">
+    <h1>☕ Coffee House</h1>
+    <p>Est. 2026</p>
+
+    <h2>Coffee</h2>
+
+    <div class="item">
+      <span>Espresso</span>
+      <span>₹120</span>
+    </div>
+
+    <div class="item">
+      <span>Cappuccino</span>
+      <span>₹150</span>
+    </div>
+
+    <div class="item">
+      <span>Latte</span>
+      <span>₹160</span>
+    </div>
+
+    <div class="item">
+      <span>Mocha</span>
+      <span>₹180</span>
+    </div>
+
+    <h2>Desserts</h2>
+
+    <div class="item">
+      <span>Chocolate Cake</span>
+      <span>₹200</span>
+    </div>
+
+    <div class="item">
+      <span>Brownie</span>
+      <span>₹150</span>
+    </div>
+
+    <div class="item">
+      <span>Cheesecake</span>
+      <span>₹220</span>
+    </div>
+
+    <p class="footer">Visit us again ❤️</p>
+  </div>
+
+</body>
+</html>
